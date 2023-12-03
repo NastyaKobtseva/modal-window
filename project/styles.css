@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 400px;
+    min-height: 300px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+  .all-content-circle {
+    position: absolute;
+    margin-left: 417px;
+    margin-top: 551px;
+  }
+
+.circle-map-yellow {
+    position: absolute;
+}
+
+.map {
+    margin-left: 490px;
+}
+
+.circle-map-yellow {
+    position: absolute;
+}
+
+.all {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.all-content-one {
+    display: flex;
+}
+
+
+.input-one label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .name-input {
+    height: 79px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #2D2D2D;
+    width: 400px;
+  }
+
+  .email-input {
+    height: 79px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #2D2D2D;
+    width: 400px;
+  }
+
+  .text-input {
+    border-radius: 10px;
+    height: 177px;
+    font-size: 18px;
+    color: #2D2D2D;
+    width: 400px;
+  }
+
+.h1-all-one {
+    font-size: 40px;
+}
+
+.button {
+    width: 205px;
+    height: 73px;
+    margin-top: 20px;
+    background-color: #FAD34F;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    color: black;
+    background-color: transparent;
+    border: 3px solid #FAD34F;
+}
+
+.all-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-content-3 {
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    padding-right: 10px;
+}
+
+.footer-circle-green {
+    position: relative;
+    top: -87px;
+    right: 129px;
+}
